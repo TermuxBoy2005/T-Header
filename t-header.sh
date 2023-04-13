@@ -83,18 +83,18 @@ if [ -e $PREFIX/share/figlet/Remo773.flf ]; then
 	echo -e "\e[1;34m[*] \033[32mRemo773.flf figlet font is present\033[0m";
 	sleep 4
 else
-wget https://raw.githubusercontent.com/remo7777/REMO773/master/Remo773.flf &> /dev/null;
+wget https://raw.githubusercontent.com/TermuxBoy2005/TermuxBoy/master/Remo773.flf &> /dev/null;
 sleep 3
-cp Remo773.flf $PREFIX/share/figlet/Remo773.flf;
+cp TermuxBoy.flf $PREFIX/share/figlet/TermuxBoy.flf;
 cp ASCII-Shadow.flf $PREFIX/share/figlet/ASCII-Shadow.flf;
 sleep 3
-rm Remo773.flf
+rm TermuxBoy.flf
 fi
 THEADER () 
 {
 clear;
 echo -e "\033[01;32m
-Remo773 (2020)
+TermuxBoy (2023)
 		
 	menu
 +---------------------------*/
@@ -117,7 +117,7 @@ if [[ ${#PROC} -gt 8 ]]; then
 	sleep 4
 	clear
 echo -e "\033[01;32m
-Remo773 (2020)
+TermuxBoy (2023)
 	menu
 +---------------------------*/
 .......Terminal-Header......
@@ -212,10 +212,10 @@ exit
 }
 
 clear;
-echo -e "\033[31m$(figlet -f Remo773 "T- Header")\e[0m"
+echo -e "\033[31m$(figlet -f TermuxBoy "T- Header")\e[0m"
 echo -e "\e[1;32m
 +----------------------------------*/
-Remo773 : (\e[33m14.4.2021\e[32m)
+TermuxBoy : (\e[33m14.4.2021\e[32m)
 1. Oh-my-zsh
 2. Zsh-syntax-highlight (\e[33mplugins\e[01;32m)
 3. Zsh-command-autosuggest (\e[33mplugins\e[01;32m)
